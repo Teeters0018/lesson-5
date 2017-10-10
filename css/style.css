@@ -23,72 +23,80 @@ body {
 #header > h1 {
     margin:0;
     text-align: center;
-/*    font-family: 'Lato', sans-serif;*/
-    position: relative;
-    position:realtive;transform: translateY(50%);
+    font-family: 'Lato', sans-serif;
+    position:relative;transform:translateY(50%);
 }
 #nav {
-    width:100%;
     background-color:#0035E8;
     min-height: 80px;
-/*    font-family: 'Lato', sans-serif;*/
+    font-family: 'Lato', sans-serif;
     height: auto;
 }
 #nav > ul {
     text-align: center;
-    padding: 0;
+    padding: 15px 0 15px 0;
     margin: 0;
-    transform: translateY(50%);
 }
 
 #nav > ul > button {
-    min-width: 120px;
-    color: aliceblue;
+    min-width: 178px;
+    color: #fff;
     background-color: #FFAC00; 
     border: none;
     padding: 15px 32px;
-    transition: background-color .25;
+   -webkit-transition: background-color 2s; /* for safari 3.1 to 6.0 */
+    transition: background-color .25s;
 }
 #nav > ul > button:hover {
     background-color: #FF520D; 
 }
-/*
+
     display:flex;
     background:#FFAC00;
     justify-content: space-around;
     list-style-type: none;
     margin:0;
 }
-*/
+/*
 #middle-wrapper-width {
     display: flex;
-/*    font-family: 'lato', sans-serif;*/
+    font-family: 'lato', sans-serif;
     max-width: 960px;
     margin: 0 auto;
     
 }
 #middle-wrapper {
-    
+    background-color: #fff;
+    width: 65%;
+    border-right: rgba(0, 0, 0, 0.24) solid 
+}
+*/
+#main-content-wrapper {
+    background-color: #fff;
 }
 .side-by-side {
     display: flex;
 }
 #main-content-wrapper .image-content {
       text-align: center;
-      margin-top: 50px;
-      width: 50%;
+      margin:0 auto;
+      margin-top:50px;
+      
 }
 .image-content > img {
     max-width: 200px;
     border-radius: 50%;
+    border: 4px #2b88ff solid;
 }
 
 .image-content > h4 {
-/*    font-family: 'lato', sans-serif;*/
+    font-family: 'lato', sans-serif;
     font-weight: 300;
     color: #FFAC00;
 }
-
+.image-content > h4 > a {
+    color: #2B88ff;
+}
 .image-content > h4 > a:hover {
     color: #0079E8;
 }
@@ -112,9 +120,10 @@ body {
     font-weight: 400; 
 }
 #aside-content-wrapper {
+    background-color: plum;
+    font-family: 'lato', sans-serif;
     background-color: #fff;
-    width: 35%;
-/*    font-family: 'lato', sans-serif;*/
+    margin-top: 50px;
 }
 #aside-right {
     margin: o 50px 0 8px
@@ -159,7 +168,7 @@ body {
 footer {
     background-color: #fff;
     text-align: center;
-/*    font-family: 'lato', sans-serif;*/
+    font-family: 'lato', sans-serif;
     min-height: 100px;
 }
 
