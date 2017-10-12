@@ -49,6 +49,7 @@ body {
 }
 #nav > ul > button:hover {
     background-color: #FF520D; 
+    border-bottom:2px solid #0035E8;
 }
 
     display:flex;
@@ -75,7 +76,7 @@ body {
     background-color: #fff;
 }
 .side-by-side {
-    display: flex;
+    
 }
 #main-content-wrapper .image-content {
       text-align: center;
@@ -101,8 +102,7 @@ body {
     color: #0079E8;
 }
 #main-content-wrapper article {
-    width: 50%;
-    margin-top: 100px;
+  
 }
 #main-content-wrapper article h2 {
     text-align: center;
@@ -151,12 +151,14 @@ body {
     left: -1em;
     top: .9em;
     position: relative;
+    position: relative;
     
 }
 #favorite-sites {
     background-image: url(img/computer.jpg);
     border-top: 5px #b2790f solid;
     border-bottom: 5px #004fb2 solid;
+    text-align: center;
 }
 #favorite-sites ul {
     list-style-type: none;
@@ -175,4 +177,9 @@ footer {
 footer > h1 {
     margin:0;
     transform: translateY(50%);
+}
+
+.max-width{
+    margin:0 auto;
+    max-width: 960px;
 }
